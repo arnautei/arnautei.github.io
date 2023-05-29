@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Título de la página</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #201a24;
+            color: white;
+            margin-top: 2px;
+            margin-bottom: 0px;
+            position: relative;
+        }
+        
+        .image {
+            display: block;
+            margin-bottom: 0px;
+        }
+        
+        .fixed-tex {
+          position: fixed;
+          top: 600px;
+          left: 82%;
+          transform: translateX(-50%);
+          font-size: 25px;
+        }
+
+        .fixed-text {
+            position: fixed;
+            top: 100px; /* Ajusta la posición vertical del texto aquí */
+            left: 50%; /* Ajusta la posición horizontal del texto aquí */
+            transform: translateX(-50%);
+            font-size: 120px; /* Ajusta el tamaño del texto aquí */
+            font-family: 'Michroma', sans-serif; /* Fuente 'Michroma' de Google Fonts */
+        }
+        
+        .button-container {
+            position: fixed;
+            bottom: 20px; /* Ajusta la posición vertical de los botones aquí */
+            left: 50%; /* Ajusta la posición horizontal de los botones aquí */
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+        }
+        
+        .button {
+            width: 30px; /* Ajusta el tamaño de los botones aquí */
+            height: 30px; /* Ajusta el tamaño de los botones aquí */
+            border-radius: 50%;
+            margin-left: 30px; /* Ajusta el espacio entre los botones aquí */
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .button1 {
+            background-image: url("twi.png"); /* Ruta de la imagen PNG para el primer botón */
+        }
+        
+        .button2 {
+            background-image: url("tel.png"); /* Ruta de la imagen PNG para el segundo botón */
+        }
+        
+        .button3 {
+            background-image: url("sea.png"); /* Ruta de la imagen PNG para el tercer botón */
+        }
+    </style>
+</head>
+<body>
+    <div class="fixed-text">ALPINIST</div>
+    <div class="fixed-tex">"Climbing the charts"</div>
+    <img src="apl.jpg" alt="Imagen 1" class="image">
+    <img src="apl2.jpg" alt="Imagen 2">
+    <div class="button-container">
+        <a href="https://twitter.com/Alpinist_off" target="_blank" class="button button1"></a>
+        <a href="https://telegram.org/" target="_blank" class="button button2"></a>
+        <a href="https://opensea.io/" target="_blank" class="button button3"></a>
+    </div>
+</body>
+</html>
